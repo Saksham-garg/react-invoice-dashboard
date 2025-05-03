@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { TabButton } from "../../atoms";
 import bills from "./constants";
 import BillContainer from "../BillContainer/BillContainer";

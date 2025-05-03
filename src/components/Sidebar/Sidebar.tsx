@@ -1,6 +1,6 @@
 import { SideBarTabList } from "./constants";
 import { Logo } from "../../utils/Icons";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 
 const Sidebar = () => {
