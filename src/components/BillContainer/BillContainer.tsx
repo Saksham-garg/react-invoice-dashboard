@@ -1,4 +1,5 @@
 import React from "react";
+import InvoiceImage from "../../assets/invoiceBill.png";
 
 type Props = {
   id: number;
@@ -33,7 +34,7 @@ const BillContainer: React.FC<Props> = ({
       )}`}
     >
       <img
-        src="/src/assets/invoiceBill.png"
+        src={InvoiceImage}
         alt={`Bill ${id}`}
         className="w-10 h-10 rounded-lg object-cover"
       />
